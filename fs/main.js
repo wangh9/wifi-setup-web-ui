@@ -46,7 +46,7 @@ class App extends Component {
 
       <div style="display: flex; flex-direction: column; margin: 2em 0;">
 				<div style="display: flex; margin: 0.2em 0;">
-					<label style="width: 33%;">WiFi network:</label>
+					<label style="width: 33%;">WiFi network2:</label>
 					<input type="text"
 					onInput=${onssid} style="flex:1;" />
 				</div>
