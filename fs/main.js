@@ -55,6 +55,16 @@ class App extends Component {
 					<input type="text"
 					onInput=${onpass} style="flex:1;" />
 				</div>
+        <div style="display: flex; margin: 0.2em 0;">
+          <label style="width: 33%;">Tool ID:</label>
+          <input type="text"
+          // onInput=${onssid} style="flex:1;" />
+        </div>
+        <div style="display: flex; margin: 0.2em 0;">
+          <label style="width: 33%;">Tool password:</label>
+          <input type="text"
+          onInput=${onpass} style="flex:1;" />
+        </div>
 				<button class="btn" style="margin: 0.3em 0; width: 100%;
 				background: ${state.ssid ? '#2079b0' : '#ccc'}"
 				onclick=${onclick} disabled=${!state.ssid}>
